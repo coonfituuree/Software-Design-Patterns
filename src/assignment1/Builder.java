@@ -1,4 +1,4 @@
-package Builder_Pattern;
+package assignment1;
 
 class Car {
     private final String model;
@@ -12,7 +12,6 @@ class Car {
         this.type = builder.type;
         this.color = builder.color;
     }
-
 
     @Override
     public String toString() {
@@ -54,7 +53,6 @@ class Car {
 public class Builder  {
     public static void main(String[] args) {
         Results results = new Results();
-
         System.out.println(results.getMyFutureWifeCar());
         System.out.println(results.getMyCar());
         System.out.println(results.getMyFriendsCar());
