@@ -1,4 +1,10 @@
 package assignment4.color;
 
-public class Red {
+import assignment4.color.interfaces.IColor;
+
+public class Red implements IColor {
+    @Override
+    public String fill() {
+        return "Red";
+    }
 }
